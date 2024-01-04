@@ -6,3 +6,45 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e3f2fd;
+}
+.container{
+    position: relative;
+    background-color: #000;
+    background-size: cover;
+    padding: 25px;
+    border-radius:28px ;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgb(0, 0, 0,0.1);
+}
+.logo img{
+    width: 40px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+h5{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+header .chip{
+    width: 80px;
+}
+header,.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
