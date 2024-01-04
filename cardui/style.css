@@ -43,8 +43,23 @@ header,.logo{
     justify-content: space-between;
 }
 
-
-
-
-
+h6{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+}
+.container .card-details{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+h5.number{
+    margin-top: 4px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+h5.name{
+    margin-top: 20px;
+}
 
